@@ -1,0 +1,176 @@
+
+/* Start header */
+    header .icons {
+        width: 50%;
+        visibility: hidden;
+        justify-content: start;
+    }
+
+    header .icons .menu, .footballIcon {
+        visibility: visible;
+        font-size: 32px;
+        padding: 3px;
+        margin-right: 4px;
+    }
+    
+    nav {
+        display: none;
+    }
+
+    header .title {
+        width: 50%;
+        align-items: end;
+        justify-content: end;
+        align-items: center ;
+    }
+
+    header .title a h1 {
+        font-size: 15px;
+        font-style: italic;
+        color: white;
+    }
+
+    .title img {
+        margin: 0 0 0 3px;
+        height: 55px;
+    }
+/* End header */
+
+/* Start Main Section */
+
+    .main {        
+        overflow: scroll;
+    }
+
+    .main a div {
+        width: 36vh !important;
+    }
+
+    .main .showMobile {
+        display: none;
+    }
+
+    .main div p {
+        font-size: 16px;
+    }
+
+/* End Main Section */
+
+.nextMatches .firstTeam h4, .lastTeam h4 {
+    font-size: 12px;
+}
+
+.firstTeam img, .lastTeam img {
+    width: 20px;
+    height: 20px;
+}
+
+ aside .stadium {
+    color: rgb(1, 108, 124);
+    font-size: 11px;
+}
+
+aside .time {
+    font-size: 15px;
+}
+
+aside p {
+    font-size: 13px;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+}
+/* Zamalek Section */
+
+.xzMain {
+    height: 20px;
+}
+
+.xzMain .main2 {
+    height: 20px;
+}
+
+.xzMain .main2 h4 {
+    font-size: 10px;
+    margin-left: 2.7px;
+}
+
+.xzMain .main2 strong {
+    font-size: 4px !important;
+    font-weight: bold;
+}
+
+.xzMain .img b {
+    font-size: 15px;
+    text-align: center;
+}
+
+.xzMain .point .matchesPlay,
+   .xzMain .point .inGoal,
+   .xzMain .point .outGoal,
+   .xzMain .point .pointOfTeam,
+   .xzMain .point .win,
+   .xzMain .point .lose {
+    font-size: 15px;
+   }
+
+   .zMain .point .inGoal,
+   .zMain .point .matchesPlay,
+   .zMain .point .outGoal,
+   .zMain .point .pointOfTeam,
+   .zMain .point .win,
+   .zMain .point .lose {
+    font-size: 15px;
+   }
+
+.zamalek .main2 strong {
+    width: 25%;
+    font-size: 10px;
+}
+
+.zamalek .main2 h4 {
+    width: 75%;
+    font-size: 10px;
+}
+
+.zamalek .zMain {
+    height: 27px;
+}
+
+.zamalek .zMain img {
+    width: 20px;
+    height: 80%;
+}
+
+.zamalek .point {
+    column-gap: 3px;
+    padding: 6px;
+}
+
+.xzMain .qualefied p {
+    font-size: 10px;
+    width: 100%;
+    margin-left: 12px;
+}
+
+.qualefied p, .qualefied2 p, .qualefied3 p {
+    font-size: 7px;
+    margin-left: 5px;
+}
+
+.qualefied div, .qualefied2 div, .qualefied3 div {
+    width: 4px;
+    height: 4px;
+}
+
+/* Foooter */
+footer div {
+    width: 90%;
+}
+
+footer a h5 {
+    font-size: 12px;
+}
